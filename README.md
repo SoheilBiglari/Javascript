@@ -7,7 +7,6 @@ BeCode javascript projecten
 * [DOM-manipulation](https://soheilbiglari.github.io/javascript/DOM-manipulation/index.html)
 * [Rock-Paper-Scissors](https://soheilbiglari.github.io/javascript/Rock-Paper-Scissors/index.html)
 * [Calculator](https://soheilbiglari.github.io/javascript/calculator/index.html)
-
-
+* [Chess-field-generator](https://soheilbiglari.github.io/javascript/chess-field-generatorr/index.html)
 
 
