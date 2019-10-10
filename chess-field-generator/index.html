@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing Field</title>
+
+    <style>
+        html, body{
+            width: 100%;
+            height: 100%;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        button {
+            margin: 20px
+        }
+        #field {
+            width: 400px;
+            height: 400px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .cell {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .bgblack {
+            background-color: rgb(0,0,0);
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+
+<div>
+    <button id="generate">Generate</button>
+    <button id="random">Randomize!</button>
+</div>
+
+<div id="field"></div>
+
+
+<script>
+    let field = document.getElementById("field");
+    let standard = document.getElementById("generate");
+    standard.addEventListener("click", generateField);
+    let random = document.getElementById("random");
+    random.addEventListener("click", makeRandom);
+
+
+    function generateField() {
+        /*
+        Write your code here to generate a field as indicated in the image.
+        For now you don't need to write any CSS. Any necessary classes are already provided!
+        */
+        /*met dit code kan ik een veld maken met 10 rij en 10 klommen en me onderste else, if kan ik kluren van css in mijn javascript toevoegen*/
+        var i;
+        var b;
+        b = true;
+        for (i = 1; i <= 100; i++) {
+            if (b === false) {
+                field.innerHTML += "<div class='cell'>" + i + "</div>";
+                if (i % 10 !== 0) {
+                    b = true;
+                }
+            }
+            else {
+                field.innerHTML += "<div class='cell bgblack'>" + i + "</div>";
+                if (i % 10 !== 0) {
+                    b = false;
+                }
+            }
+        }
+    }
+    function makeRandom() {
+        for (item of field.children) {
+            if (!(item.classList.contains("bgblack"))) {
+                var x = Math.floor(Math.random() * 256);
+                var y = Math.floor(Math.random() * 256);
+                var z = Math.floor(Math.random() * 256);
+                var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+                item.style.backgroundColor = bgColor;
+            }
+        }
+    }
+
+        /*Write your code here to randomize the colors.
+        You could do this for example by making some classes in CSS with different color schemes,
+        and then asigning a random one to each cell.
+       */
+
+
+    /*in code baraye khodame hich rabti be tamrin nadare
+    * ba in code mitoni ye safe balay websitet baz koni code shamele 2 khate paein mishe*/
+
+
+   /* var x = prompt("enter your name: ");
+        if(x >10)
+            alert("Greater than 10");
+        else{
+            alert("less than 10");
+        }
+*/
+        function reset() {
+        field.innerHTML = "";
+    }
+</script>
+</body>
+</html>

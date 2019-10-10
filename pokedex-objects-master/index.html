@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/27e67ac84a.js"></script>
+    <link rel="stylesheet" href="pokedex/pokestyle.css"/>
+    <title>Pokédex</title>
+</head>
+<body class="d-flex jc-c ai-c">
+
+    <div id="closed" class="d-flex">
+            <div id="closed-panel" class="d-flex flex-wrap jc-c">
+                <div id="closed-top" class="d-flex">
+                    <div id="closed-top-space-left" class="d-flex">
+                        <div id="closed-lens" class="d-flex jc-c">
+                            <div id="closed-reflection"></div>
+                        </div>
+                        <div id="closed-traffic-dots" class="d-flex jc-between">
+                            <div id="closed-reddot" class="d-flex jc-c">
+                            </div>
+                            <div id="closed-yellowdot" class="d-flex jc-c">
+                            </div>
+                            <div id="closed-greendot" class="d-flex jc-c">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="closed-top-space-right" class="d-flex ai-end">
+                        <div id="closed-dec-border-tsr" class=""></div>
+                    </div>
+                </div>
+    
+                <div id="closed-pic-screen" class="js-c d-flex flex-col ai-c">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/200653/logo.png" alt="Pokédex logo">
+                </div>
+    
+            </div>
+        
+            <div id="closed-hinge">
+                <div id="closed-hinge1"></div>
+                <div id="closed-hinge2"></div>
+                <div id="closed-hinge3"></div>
+                <div id="closed-hinge4"></div>
+                <div id="closed-hinge5"></div>
+                <div id="closed-hinge6"></div>
+            </div>        
+    </div>
+
+    <div id="pokédex" class="d-flex">
+        <div id="left-panel" class="d-flex flex-wrap jc-c">
+            <div id="left-top" class="d-flex">
+                <div id="top-space-left" class="d-flex">
+                    <div id="lens" class="d-flex jc-c">
+                        <div id="reflection"></div>
+                    </div>
+                    <div id="traffic-dots" class="d-flex jc-between">
+                        <div id="reddot" class="d-flex jc-c">
+                        </div>
+                        <div id="yellowdot" class="d-flex jc-c">
+                        </div>
+                        <div id="greendot" class="d-flex jc-c">
+                        </div>
+                    </div>
+                </div>
+                <div id="top-space-right" class="d-flex ai-end">
+                    <div id="dec-border-tsr" class=""></div>
+                </div>
+            </div>
+
+            <div id="pic-screen" class="js-c d-flex flex-col ai-c">
+                <div id="double-dot" class="d-flex flex-row jc-between">
+                    <div id="sm-red1" class="sm-red"></div>
+                    <div id="sm-red2" class="sm-red"></div>
+                </div>
+                <div id="pic-frame" class="d-flex flex-row ai-c jc-c">
+                    <img id="pict" src="https://thumbs.gfycat.com/IdioticSentimentalAtlanticridleyturtle-small.gif" alt="Princess Diancie">
+                </div>
+                <div id="pic-btns" class="d-flex flex-row">
+                    <div id="darkred-btn"></div>
+                    <div id="line-btns" class="d-flex flex-row ai-end">
+                        <div id="lines-left" class="d-flex ai-end spacing"><i class="fas fa-bars"></i></div>
+                        <div id="lines-right" class="d-flex ai-end spacing"><i class="fas fa-bars"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="bottom-left" class="d-flex jc-even">
+                <div id="bottom-space-left">
+                        <div id="search"></div>
+                </div>
+                <div id="bottom-space-center" class="d-flex flex-col flex-wrap">
+                    <div id="bar-btns-l" class="d-flex ai-c jc-between">
+                        <div id="green-bar-l"></div>
+                        <div id="orange-bar-l"></div>
+                    </div>
+                    <div id="number-index" class="d-flex jc-c ai-c">
+                        <div id="search1" class="d-flex jc-c ai-c"><input  id="pokesearch" type="text" name="fname"></div>
+                    </div>
+                </div>
+                <div id="bottom-space-right">
+                    <div id="d-pad-up" class="d-flex jc-c ai-c"><i class="fas fa-caret-up"></i></div>
+                    <div id="previous" class="d-flex jc-c ai-c"><i class="fas fa-caret-left"></i></div>
+                    <div id="d-pad-middle" class="d-flex jc-c ai-c">
+                        <div id="d-pad-center" class="d-flex jc-c ai-c"></div>
+                    </div>
+                    <div id="next" class="d-flex jc-c ai-c"><i class="fas fa-caret-right"></i></div>
+                    <div id="d-pad-down" class="d-flex jc-c ai-c"><i class="fas fa-caret-down"></i></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="hinge">
+            <div id="hinge1"></div>
+            <div id="hinge2"></div>
+            <div id="hinge3"></div>
+            <div id="hinge4"></div>
+            <div id="hinge5"></div>
+            <div id="hinge6"></div>
+        </div>
+
+        <div id="right-panel"class="d-flex flex-wrap jc-c">
+            <div id="right-top" class="d-flex">
+                    <div id="r-top-space-left" class="d-flex ai-end">
+                            <div id="r-dec-border-tsl" class=""></div>
+                    </div>
+        
+                <div id="r-top-space-right" class="d-flex">
+                </div>
+            </div>
+
+            <div id="screen-shadow">
+                <div id="green-screen" class="d-flex flex-col">
+                    <div id="green-screen2"></div>
+                    <div id="pokinfo-1"><span class="bold"></span><span id="pokename" class="bold"></span></div>
+                    <div id="pokinfo-2"><span class="bold"></span><span id="pokemon_id" class="bold"></span></div>
+                    <div id="pokinfo-3"><span class="bold"></span><span class="bold"></span></div>
+                    <div id="pokinfo-4"><span class="bold"></span><span id="weight" class="bold"></span></div>
+                    <div id="pokinfo-5" class="d-flex flex-col"><span class="bold"></span><span id="moves" class="bold"></span></div>
+                </div>
+            </div>
+            <div id="blue-square-btns" class="d-flex flex-wrap jc-c">
+                <div id="bluesquare-1" class="blue-btn"></div>
+                <div id="bluesquare-2" class="blue-btn"></div>
+                <div id="bluesquare-3" class="blue-btn"></div>
+                <div id="bluesquare-4" class="blue-btn"></div>
+                <div id="bluesquare-5" class="blue-btn"></div>
+                <div id="bluesquare-6" class="blue-btn"></div>
+                <div id="bluesquare-7" class="blue-btn"></div>
+                <div id="bluesquare-8" class="blue-btn"></div>
+                <div id="bluesquare-9" class="blue-btn"></div>
+                <div id="bluesquare-10" class="blue-btn"></div>
+            </div>
+            <div id="r-middle-bar" class="d-flex jc-between">
+                <div id="tinyandarrows" class="d-flex flex-col">
+                    <div id="tiny-btns" class="d-flex">
+                        <div id="tinybtn-1"></div>
+                        <div id="tinybtn-2"></div>
+                    </div>
+                    <div id="navigate" class="d-flex">
+                        <div id="arrow-left" class="d-flex jc-c ai-c"><i class="fas fa-caret-left"></i></div>
+                        <div id="arrow-right" class="d-flex jc-c ai-c"><i class="fas fa-caret-right"></i></div>
+                    </div>
+                </div>
+                <div id="barsandplay" class="d-flex flex-col">
+                    <div id="bar-btns-l" class="d-flex ai-c jc-between">
+                        <div id="green-bar-l" onclick="LoadPokemonList()"></div>
+                        <div id="orange-bar-l"></div>
+                    </div>
+                    <div id="play-btn" class="d-flex jc-c ai-c as-end">
+                        <div id="play-icon" class="d-flex jc-c ai-c">&#9668;</div>
+                    </div>    
+                </div>
+            </div>
+            <div id="yellow-btns" class="d-flex jc-between">
+                <div id="yellowbtn-1" class="yllw-btn"></div>
+                <div id="yellowbtn-2" class="yllw-btn"></div>
+            </div>
+        </div>
+
+                        
+
+    </div>
+    <script>
+        /*==================================================================================================
+        ======================================== Magic Happens Here! =======================================
+        ==================================================================================================*/
+        //Variables are declared.
+        let base_url = "https://pokeapi.co/api/v2/";
+        let poke_search = document.getElementById("pokesearch");
+        let search = document.getElementById("search");
+        let previous = document.getElementById("previous");
+        let next = document.getElementById("next");
+        let list = document.getElementById("list");
+        let pokemonT = {pokemon_name:"", pokemon_id:"", pokemon_moves:"",
+            pokemon_abilities:"", pokemon_image:"",
+            pokemon_weight:"", movess: function(moveinh) { return moveinh[Math.floor(Math.random() * moveinh.length)]},
+            sentence: function() { return "This is " + pokemonT.pokemon_name + ". " + pokemonT.pokemon_name + " uses " + pokemonT.movess(pokemonT.pokemon_moves) + " "
+            + pokemonT.movess(pokemonT.pokemon_moves) + " as moves and has a total weight of "  + pokemonT.pokemon_weight}};
+        //let pokemon_name;
+        //let pokemon_id;
+        //let pokemon_moves;
+        //let pokemon_abilities;
+        //let pokemon_image;
+        //let pokemon_weight;
+        //EventListeners are added to HTML elements.
+        search.addEventListener("click", function() {
+            LoadPokemon(poke_search.value);
+        });
+       // poke_search.addEventListener("keyup", function(event) {
+         //   if (event.key === "Enter") {
+           //     LoadPokemon(poke_search.value);
+           // }
+        //})
+       previous.addEventListener("click", function() {
+          if (pokemonT.pokemon_id === undefined) {
+            pokemonT.pokemon_id = 2;
+        }
+        LoadPokemon(--pokemonT.pokemon_id);
+      });
+        next.addEventListener("click", function() {
+            if (pokemonT.pokemon_id === undefined) {
+                pokemonT.pokemon_id = 0;
+            }
+            LoadPokemon(++pokemonT.pokemon_id);
+        })
+        //Function that looks up the data for a pokemon when it's given the pokemon's name or id number.
+        function LoadPokemon(pokemon){
+            let request = new XMLHttpRequest();
+            let dots = 1;
+            request.onreadystatechange = function() {
+                if (this.readyState === 4 && this.status == 200 && pokemon !== "") {
+                    SetVariables(JSON.parse(this.responseText));
+                }
+                else {
+                    SetVariables(dots++);
+                }
+            }
+            request.open("GET", base_url + "pokemon/" + pokemon.toString().toLowerCase(), true);
+            request.send();
+            LogPokeData();
+        }
+
+            //This function changes the variables with the most recent pokemon's information.
+            function SetVariables(data) {
+                if (typeof data === "number") {
+                    console.log("Searching for data" + ".".repeat(data))
+                } else {
+                    console.log("Data found!")
+                    pokemonT.pokemon_name = data.name;
+                    pokemonT.pokemon_id = data.id;
+                    pokemonT.pokemon_moves = data.moves.map(x => x.move.name);
+                    pokemonT.pokemon_abilities = data.abilities.map(x => x.ability.name);
+                    pokemonT.pokemon_image = data.sprites.front_default;
+                    pokemonT.pokemon_weight = data.weight;
+                    new DoThingsWithTheDom(pokemonT.pokemon_name, pokemonT.pokemon_id, pokemonT.pokemon_weight, pokemonT.pokemon_moves);
+                }
+            }
+
+        //This function loads all of the pokemons and stores them in a list in your HTML.
+        //Clicking one of the list items will then look up data for that specific pokemon!
+        function LoadPokemonList() {
+            let r = 0;
+            let d;
+
+            let request = new XMLHttpRequest();
+            let green = document.getElementById("green-screen2");
+
+            green.style.display = "inline";
+            
+            let spanny = document.getElementsByClassName("bold");
+
+            for (r = 0; r <= 9; r++) {
+                spanny[r].style.display = "none";
+            }
+
+
+
+            //green.innerHTML = "";
+           //list.innerHTML = "";
+            request.onreadystatechange = function() {
+                if (this.readyState === 4 && this.status == 200) {
+                    let pokemon_list = JSON.parse(this.responseText).results.map(x => x.name);
+                    for (pokemonT of pokemon_list) {
+                          // green.innerHTML += pokemon + "<br>";
+                          let li = document.createElement("li");
+                       //   li.append(green);
+                        li.innerHTML = pokemonT;
+                        li.addEventListener("click", function() {
+                            LoadPokemon(this.innerHTML);
+                      });
+                        green.append(li);
+                    }
+                }
+            }
+            request.open("GET", base_url + "pokemon?offset=0&limit=807", true);
+            request.send();
+            LogPokeData();
+        }
+        //Function that you can call to see the current pokemon's information
+        function LogPokeData() {
+            console.log("Name: " + pokemonT.pokemon_name
+                + "\n" + "ID: " + pokemonT.pokemon_id
+                + "\n" + "Moves:", pokemonT.pokemon_moves
+                , "\n" + "Abilities:", pokemonT.pokemon_abilities
+                , "\n" + "Image URL: " + pokemonT.pokemon_image
+                + "\n" + "Weight: " + pokemonT.pokemon_weight);
+        }
+        /*==================================================================================================
+        ======================================== Magic Ends Here! ==========================================
+        ==================================================================================================*/
+        function DoThingsWithTheDom(result, result_id, result_weight, result_moves) {
+            /*
+            Write your code here!
+            The following variables contain data for you to use. Be careful with the data types (some are numbers, some are strings and some are arrays)!
+                pokemon_name
+                pokemon_id
+                pokemon_moves
+                pokemon_abilities
+                pokemon_image
+                pokemon_weight
+            The goal of the exercise is for you to display this information in your HTML.
+            You can do this by placing empty tags in your HTML, and the assigning their content with JS.
+            But you can also generate the HTML with document.createElement().
+            */
+            let t = 0;
+            let i;
+
+
+            let spanny = document.getElementsByClassName("bold");
+            let screeng = document.getElementById("green-screen2");
+
+           // Array.prototype.randomElement = function () {
+             //   return this[Math.floor(Math.random() * this.length)]
+            //}
+
+            screeng.style.display = "none";
+
+            for (t = 0; t <= 9; t++) {
+                spanny[t].style.display = "inline";
+            }
+
+            this.result = document.getElementById("pokename");
+           // this.result_id = document.getElementById("pokemon_id");
+            //this.result_weight = document.getElementById("weight");
+            //this.result_moves = document.getElementById("moves");
+
+            this.result.innerHTML = pokemonT.sentence();
+            //this.result_id.innerHTML = pokemonT.pokemon_id;
+            //this.result_weight.innerHTML = pokemonT.pokemon_weight;
+            //this.result_moves.innerHTML = "";
+
+            //this.result_moves.innerHTML = pokemonT.movess(pokemonT.pokemon_moves);
+            //this.result_moves.innerHTML += " " + pokemonT.movess(pokemonT.pokemon_moves);
+
+            //for (i = 1; i <= 5; i++) {
+              //  result_moves.innerHTML += pokemon_moves[i] + ", ";
+            //}
+
+            document.getElementById("pict").src = pokemonT.pokemon_image;
+
+
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="265dad22-cc20-4db8-bc7d-dd4f4bb1e657" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../AJAX/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AJAX/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AJAX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AJAX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOM manipulation/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DOM manipulation/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOM manipulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DOM manipulation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess-field-generator/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chess-field-generator/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess-field-generator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chess-field-generator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokedex-objects-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../pokedex-objects-master/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1S0PQy5ejrCFQetvQ6X4DYXGYRu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="265dad22-cc20-4db8-bc7d-dd4f4bb1e657" name="Default" comment="" />
+      <created>1564737874294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564737874294</updated>
+      <workItem from="1564737875576" duration="14155000" />
+      <workItem from="1564988695498" duration="13830000" />
+      <workItem from="1565122539846" duration="948000" />
+      <workItem from="1565184570231" duration="810000" />
+      <workItem from="1565285266717" duration="694000" />
+      <workItem from="1565338541922" duration="20093000" />
+      <workItem from="1565393265496" duration="399000" />
+      <workItem from="1565450719042" duration="13457000" />
+      <workItem from="1565469924737" duration="273000" />
+      <workItem from="1565590251116" duration="731000" />
+      <workItem from="1565593142477" duration="12000" />
+      <workItem from="1570697528371" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

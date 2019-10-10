@@ -1,0 +1,30 @@
+$fontsize: 30px;
+$bgcolor:antiquewhite;
+
+
+body{
+  background: $bgcolor;
+  font-family: 'Grenze', serif;
+}
+.img{
+  display: flex;
+  justify-content: center;
+
+}
+.img img{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+p{
+  display: flex;
+  justify-content: center;
+  font-size:$fontsize;
+}
+h2{
+  display: flex;
+  justify-content: center;
+}
+#section{
+  background: $bgcolor
+}
