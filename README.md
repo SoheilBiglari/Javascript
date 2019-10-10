@@ -9,7 +9,7 @@ BeCode javascript projecten
 * [Calculator](https://soheilbiglari.github.io/javascript/calculator/index.html)
 * [Chess-field-generator](https://soheilbiglari.github.io/javascript/chess-field-generator/index.html)
 * [form-validation](https://soheilbiglari.github.io/javascript/form-validation/index.html)
-* [Chess-field-generator](https://soheilbiglari.github.io/javascript/chess-field-generator/index.html)
+* [js-rpg-game](https://soheilbiglari.github.io/javascript/js-rpg-game/index.html)
 * [Chess-field-generator](https://soheilbiglari.github.io/javascript/chess-field-generator/index.html)
 
 
